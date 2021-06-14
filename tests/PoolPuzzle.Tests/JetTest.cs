@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Xunit;
+﻿using Xunit;
 using PoolPuzzle.BusinessLogic;
 
 namespace PoolPuzzle.Tests
@@ -27,7 +22,7 @@ namespace PoolPuzzle.Tests
         }
 
         [Fact]
-        public void ShouldHaveMiltiplierEquals2ByDefault()
+        public void ShouldHaveMultiplierEquals2ByDefault()
         {
             var jet = new Jet();
 

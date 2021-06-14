@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace PoolPuzzle.BusinessLogic
+﻿namespace PoolPuzzle.BusinessLogic
 {
     public class Airplane
     {
@@ -8,7 +6,7 @@ namespace PoolPuzzle.BusinessLogic
 
         public virtual int Multiplier { get; set; } = 1;
 
-        public virtual  void SetSpeed(int speed)
+        public virtual void SetSpeed(int speed)
         {
             _speed = speed;
         }

@@ -26,8 +26,10 @@ namespace PoolPuzzle.ConsoleApp
                 {
                     boeing.Accelerate();
                 }
+
                 x++;
             }
+
             Console.WriteLine(biplane.GetSpeed());
         }
     }

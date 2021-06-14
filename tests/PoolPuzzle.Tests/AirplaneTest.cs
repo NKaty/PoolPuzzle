@@ -1,4 +1,3 @@
-using System;
 using Xunit;
 using PoolPuzzle.BusinessLogic;
 
@@ -23,7 +22,7 @@ namespace PoolPuzzle.Tests
         }
 
         [Fact]
-        public void ShouldHaveMiltiplierEquals1ByDefault()
+        public void ShouldHaveMultiplierEquals1ByDefault()
         {
             var airplane = new Airplane();
 
